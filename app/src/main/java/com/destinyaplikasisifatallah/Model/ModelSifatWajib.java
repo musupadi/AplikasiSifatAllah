@@ -17,7 +17,9 @@ public class ModelSifatWajib {
                             "“Dialah Yang Awal dan Yang Akhir, Yang Zhahir dan Yang Bathin, dan Dia Maha Mengetahui segala sesuatu.” (QS.Al-Hadid: 3).\n"
             },
             {
-                "Baqa"
+                "Baqa",
+                    "Test",
+                    "Test"
             }
     };
     public static ArrayList<Model> getListData(){
