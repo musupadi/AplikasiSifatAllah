@@ -132,7 +132,7 @@
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="Cari Pahlawan"
+                                            android:text="Sifat Mustahil"
                                             android:textSize="16sp"
                                             android:gravity="top|center"
                                             android:layout_weight="1"/>
@@ -140,7 +140,7 @@
                                     <Button
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:id="@+id/btnCariBiodata"
+                                        android:id="@+id/btnSifatMustahil"
                                         android:background="@android:color/transparent"/>
                                 </RelativeLayout>
 
@@ -180,14 +180,14 @@
                                         android:padding="5dp"
                                         >
                                         <ImageView
-                                            android:src="@drawable/favorite"
+                                            android:src="@drawable/sifatjaiz"
                                             android:layout_weight="1"
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent" />
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="Pahlawan Favorit Saya"
+                                            android:text="Sifat Jaiz"
                                             android:textSize="16sp"
                                             android:gravity="top|center"
                                             android:layout_weight="1"/>
@@ -231,11 +231,11 @@
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
                                             android:layout_weight="1"
-                                            android:src="@drawable/quiz"/>
+                                            android:src="@drawable/kuis"/>
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="Kuis Pahlawan"
+                                            android:text="Kuis"
                                             android:textSize="16sp"
                                             android:gravity="top|center"
                                             android:layout_weight="1"/>
@@ -283,12 +283,12 @@
                                         <ImageView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:src="@drawable/highscore"
+                                            android:src="@drawable/profile"
                                             android:layout_weight="1"/>
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="High Score Kuis"
+                                            android:text="Tentang"
                                             android:textSize="16sp"
                                             android:gravity="top|center"
                                             android:layout_weight="1"/>
@@ -296,7 +296,7 @@
                                     <Button
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:id="@+id/btnHighScore"
+                                        android:id="@+id/btnTentang"
                                         android:background="@android:color/transparent"/>
                                 </RelativeLayout>
 
@@ -331,12 +331,12 @@
                                         <ImageView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:src="@drawable/highscore"
+                                            android:src="@drawable/exit"
                                             android:layout_weight="1"/>
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="match_parent"
-                                            android:text="High Score Kuis"
+                                            android:text="Exit"
                                             android:textSize="16sp"
                                             android:gravity="top|center"
                                             android:layout_weight="1"/>
@@ -344,7 +344,7 @@
                                     <Button
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:id="@+id/btnHighScore"
+                                        android:id="@+id/btnExit"
                                         android:background="@android:color/transparent"/>
                                 </RelativeLayout>
 
