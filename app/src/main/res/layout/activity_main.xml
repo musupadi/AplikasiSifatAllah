@@ -4,13 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.MainActivity">
+    android:id="@+id/splashscreen"
+    android:background="@drawable/background">
 
-    <Button
-        android:id="@+id/btnMasuk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Masuk"
-        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:background="@color/pureBlack"
+        android:alpha="0.5"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:text="Aplikasi Lagu Nasional Indonesia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSplash"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_centerInParent="true"
+            android:textColor="@color/pureWhite"/>
+        <ProgressBar
+            android:id="@+id/progresBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp"/>
+    </RelativeLayout>
+
+
 
 </RelativeLayout>

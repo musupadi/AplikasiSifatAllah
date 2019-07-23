@@ -17,7 +17,7 @@
             android:src="@drawable/ikonkembali"
             android:id="@+id/ivKembali"/>
         <TextView
-            android:text="Sifat Jaiz"
+            android:text="Tentang Developer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -42,36 +42,40 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="20dp">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="30sp"
-                android:text="Sifat Jaiz"
-                android:id="@+id/tvSifat"
-                android:gravity="center"
-                android:textColor="@color/pureWhite"
-                android:layout_marginBottom="10dp"/>
-            <ScrollView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
-
-                <LinearLayout
+                android:layout_weight="2"
+                android:src="@drawable/satrio"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content"
+                    android:text="Nama : Muhamad Satrio Ramadhan"
+                    android:textColor="@color/pureWhite"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Npm : 201543501987"
+                    android:textColor="@color/pureWhite"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jurusan : Teknik Informatika"
+                    android:textColor="@color/pureWhite"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+            </LinearLayout>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:textColor="@color/pureWhite"
-                        android:id="@+id/tvDeskripsi"
-                        android:text="@string/sifat_jaiz"
-                        android:textSize="20sp" />
-                </LinearLayout>
-            </ScrollView>
         </LinearLayout>
     </RelativeLayout>
 

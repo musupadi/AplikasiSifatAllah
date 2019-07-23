@@ -25,8 +25,8 @@ public class AdapterSifatWajib extends RecyclerView.Adapter<AdapterSifatWajib.Ca
         return listSifatWajib;
     }
 
-    public void setListLaguWajib(ArrayList<Model> listLaguWajib) {
-        this.listSifatWajib = listLaguWajib;
+    public void setListSifatWajib(ArrayList<Model> listSifatWajib) {
+        this.listSifatWajib = listSifatWajib;
     }
 
     public AdapterSifatWajib(Context context) {
