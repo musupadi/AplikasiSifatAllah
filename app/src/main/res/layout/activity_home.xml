@@ -33,8 +33,28 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="300dp"
-                    android:gravity="center"
+                    android:gravity="top"
                     android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/whitebackground">
+                        <AutoCompleteTextView
+                                android:id="@+id/etSearch"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:hint="Cari"
+                                android:layout_weight="1">
+                        </AutoCompleteTextView>
+                        <ImageView
+                            android:id="@+id/ivSearch"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="8"
+                            android:src="@drawable/search"/>
+                    </LinearLayout>
 
 
                 </LinearLayout>

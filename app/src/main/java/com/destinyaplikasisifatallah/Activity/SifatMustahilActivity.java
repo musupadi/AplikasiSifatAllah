@@ -23,7 +23,7 @@ public class SifatMustahilActivity extends AppCompatActivity {
     ImageView kembali,play;
     private ArrayList<Model> pList = new ArrayList<>();
     boolean onClicked = true;
-
+    MediaPlayer SuaraLagu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class SifatMustahilActivity extends AppCompatActivity {
         rvCategory = (RecyclerView)findViewById(R.id.recycler);
         kembali = (ImageView)findViewById(R.id.ivKembali);
         play = (ImageView)findViewById(R.id.ivPlay);
-        final MediaPlayer SuaraLagu = MediaPlayer.create(SifatMustahilActivity.this,R.raw.sifatmustahil);
+        SuaraLagu = MediaPlayer.create(SifatMustahilActivity.this,R.raw.sifatmustahil);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,8 +56,15 @@ public class SifatMustahilActivity extends AppCompatActivity {
         kembali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SuaraLagu.stop();
                 SifatMustahilActivity.super.onBackPressed();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        SuaraLagu.stop();
+        super.onBackPressed();
     }
 }

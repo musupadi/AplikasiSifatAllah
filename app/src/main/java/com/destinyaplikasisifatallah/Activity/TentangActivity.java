@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import com.destinyaplikasisifatallah.R;
 
 public class TentangActivity extends AppCompatActivity {
-    ImageView kembali,play;
+    ImageView kembali;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

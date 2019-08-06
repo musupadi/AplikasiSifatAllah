@@ -1,6 +1,7 @@
 package com.destinyaplikasisifatallah.Activity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -17,15 +18,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tvSplash = (TextView) findViewById(R.id.tvSplash);
-
-
+        final MediaPlayer SuaraLagu = MediaPlayer.create(MainActivity.this,R.raw.welcome);
+        SuaraLagu.start();
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
                 changeActivity();
                 finish();
             }
-        }, 3000); //3000 L = 3 detik
+        }, 5000); //3000 L = 3 detik
     }
 
     private void changeActivity(){

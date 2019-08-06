@@ -22,6 +22,7 @@ public class SifatWajibActivity extends AppCompatActivity {
     ImageView kembali,play;
     private ArrayList<Model> pList = new ArrayList<>();
     boolean onClicked = true;
+    MediaPlayer SuaraLagu;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +30,7 @@ public class SifatWajibActivity extends AppCompatActivity {
         rvCategory = (RecyclerView)findViewById(R.id.recycler);
         kembali = (ImageView)findViewById(R.id.ivKembali);
         play = (ImageView)findViewById(R.id.ivPlay);
-        final MediaPlayer SuaraLagu = MediaPlayer.create(SifatWajibActivity.this,R.raw.sifatwajib);
+        SuaraLagu = MediaPlayer.create(SifatWajibActivity.this,R.raw.sifatwajib);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -37,12 +38,12 @@ public class SifatWajibActivity extends AppCompatActivity {
                 final Drawable DrawablePlay = getResources().getDrawable(R.drawable.play);
                 if (onClicked){
                     play.setImageDrawable(DrawableHapus);
-                    onClicked=false;
                     SuaraLagu.start();
+                    onClicked=false;
                 }else{
                     play.setImageDrawable(DrawablePlay);
-                    onClicked=true;
                     SuaraLagu.pause();
+                    onClicked=true;
                 }
             }
         });
@@ -55,9 +56,15 @@ public class SifatWajibActivity extends AppCompatActivity {
         kembali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SuaraLagu.stop();
                 SifatWajibActivity.super.onBackPressed();
             }
         });
     }
 
+    @Override
+    public void onBackPressed() {
+        SuaraLagu.stop();
+        super.onBackPressed();
+    }
 }

@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         android:padding="10dp">
         <TextView
-            android:text="Aplikasi Lagu Nasional Indonesia"
+            android:text="Aplikasi Sifat-sifat Allah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/tvSplash"

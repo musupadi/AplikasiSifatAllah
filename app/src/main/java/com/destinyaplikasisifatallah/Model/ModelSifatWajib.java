@@ -66,28 +66,28 @@ public class ModelSifatWajib {
                     "Mustahil Allah bersifat Tuli. Allah Ta’ala adalah Tuhan yang Maha Mendengar. Pendengaran Allah meliputi segala sesuatu.\n" +
                             "“Katakanlah cukuplah Allah menjadi saksi antaraku dan antaramu. Dia mengetahui apa yang di langit dan di bumi.” (Al-Ankabut : 52).\n"
             },
-            {"Ama",
+            {"Umyun",
                     "Buta",
                     "Allah Ta’ala juga tidak buta. Dia Maha Melihat Segala Sesuatu. Tak ada satu hal pun yang luput dari pengelihatanNya.\n" +
                             "“Dan Allah Maha Melihat atas apa yang kamu kerjakan.” (QS. Al-Hujarat: 18).\n" +
                             "“(Dia) Pencipta langit dan bumi. Dia menjadikan bagi kamu dari jenis kamu sendiri pasangan-pasangan dan dari jenis binatang ternak pasangan-pasangan (pula), dijadikan-Nya kamu berkembang biak dengan jalan itu. Tidak ada sesuatupun yang serupa dengan Dia, dan Dia-lah Yang Maha Mendengar lagi Maha Melihat.” (QS.Asy-syuro: 11).\n"
             },
-            {"Bakamun",
+            {"Bukmun",
                     "Bisu",
                     "Allah Ta’ala tidaklah Bisu. Allah berkata dan berfirman dengan sangat sempurna. Tak ada bisa mengalahkan keindahan firman Allah Ta’ala. Dan salah satu Nabi yang pernah berbicara langsung dengan Allah adalah Nabi Musa.\n" +
                             "“Dan ada beberapa rasul yang telah Kami kisahkan mereka kepadamu sebelumnya, dan ada beberapa rasul (lain) yang tidak Kami kisahkan mereka kepadamu. Dan kepada Musa Allah ‘telah berfirman secara langsung.” (QS. An-Nisa’: 164).\n"
             },
-            {"Kaunuhu ‘ajiyan ",
+            {"Ajizan",
                     "Zat yang lemah",
                     "Mustahil Allah bersifat lemah. Allah Ta’ala adalah pencipta alam semesta dan segala isisnya. Dia Maha Kuasa atas semua hal.\n" +
                             "“Sebahagian besar ahli kitab menginginkan agar mereka dapat mengembalikan kamu kepada kekafiran setelah kamu beriman, karena dengki yang (timbul) dari diri mereka sendiri, setelah nyata bagi mereka kebenaran. Maka ma’afkanlah dan biarkanlah mereka, sampai Allah mendatangkan perintah-Nya. Sesungguhnya Allah Maha Kuasa atas segala sesuatu.” (QS. Al Baqarah 109).\n"
             },
-            {"Kaunuhu karihan ",
+            {"Karihan",
                     "Zat yang terpaksa",
                     "Allah Ta’ala bukanlah dzat yang terpaksa. Dia Maha Berkehendak atas segala sesuatu. Hanya berfirman “kun fa yakun” maka jadilah apa yang dikehendaki oleh Nya.\n" +
                             "“Mereka kekal di dalamnya selama ada langit dan bumi, kecuali jika Tuhanmu menghendaki (yang lain). Sesungguhnya Tuhanmu Maha Pelaksana terhadap apa yang Dia kehendaki.” (QS.Hud: 107)."
             },
-            {"Kaunuhu jahilan ",
+            {"Jahilan ",
                     "Zat yang sangat bodoh",
                     "Mustahil Allah adalah dzat yang bodoh. Allah Maha Mengetahui dan Melihat apa-apa yang ditampakkan atau disembunyikan."
             },
@@ -95,15 +95,15 @@ public class ModelSifatWajib {
                     "Zat yang mati",
                     "Allah tidak mati. Allah bersifat kekal, tidak musnah dan tidak binasa. Dia tidak pernah tidur. Selalu mengawasi hamba-hambaNya setiap saat."
             },
-            {"Kaunuhu ashamma ",
+            {"Ashamma ",
                     "Zat yang tuli",
                     "Mustahil Allah bersifat tuli. Allah adalah Tuhan yang Maha Mendengar. Pendengaran Allah tak terbatas dan meliputi segala sesuatu."
             },
-            {"Kaunuhu ‘ama",
+            {"‘ama",
                     "Zat yang buta",
                     "Allah Maha Melihat, tidaklah buta. Dia Maha Sempurna dengan seluruh keagunganNya"
             },
-            {"Kaunuhu abkama",
+            {"Abkama",
                     "Zat yang bisu",
                     "Allah bukanlah dzat yang bisu. Allh berfirman dan firmanNya tertuang dalam kitab-kitab suci yang diturunkan lewat para nabi."
             }

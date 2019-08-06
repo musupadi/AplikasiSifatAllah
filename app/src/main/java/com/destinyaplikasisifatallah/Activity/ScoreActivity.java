@@ -22,16 +22,6 @@ public class ScoreActivity extends AppCompatActivity {
         Intent data = getIntent();
         final String Score = data.getStringExtra("SCORE");
         SCORE.setText("Selamat Anda mendapatkan Score : \n"+Score);
-        Kuis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent goInput = new Intent(ScoreActivity.this, KuisActivity.class);
-                goInput.putExtra("NO",String.valueOf(0));
-                goInput.putExtra("SCORE",String.valueOf(0));
-                ScoreActivity.this.startActivities(new Intent[]{goInput});
-                finish();
-            }
-        });
         Kembali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
